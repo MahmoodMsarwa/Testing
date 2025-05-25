@@ -49,12 +49,3 @@ def test_1(driver):
 
 
 
-def test_2(driver):
-
-    sleep(3)
-
-    E = driver.find_element(By.ID, 'user-name')
-    E.send_keys('standard_user')
-
-
-
